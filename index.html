@@ -122,7 +122,7 @@
   
               <div class="banner">
                     <div class="typed_wrap">
-                    <h1>We Are <span class="typed"></span></h1>
+                    <h1 id="typed"></h1>
                         </div>
                       </div>
                     </div>
@@ -353,10 +353,18 @@
             
           <script>
             document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+
+
+
           </script>
     </footer>
   </div>
 </nav>
+
+
+<!-- plugin -->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <!--   Core JS Files   -->
  
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -378,7 +386,13 @@
       nowuiKit.initSliders();
     });
    
-
+    var typed3 = new Typed('#typed', {
+    strings: ['Welcome To</i>', 'Taylor <i></i>', 'Guitars<i></i>'],
+    typeSpeed: 50,
+    backSpeed: 35,
+    smartBackspace: true, // this is a default
+    loop: true
+    });
 
 
 
