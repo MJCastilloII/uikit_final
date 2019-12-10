@@ -5013,7 +5013,7 @@ Created using IcoMoon - icomoon.io
 }
 
 img {
-  max-width: 90%;
+  max-width: 100%;
   border-radius: 1px;
 }
 
@@ -7410,7 +7410,7 @@ canvas {
   border-radius: 0 0 3px 3px;
 }
 body {
-  background: #34495e;
+  background: #f8f9fa;
   color: #ecf0f1;
   margin: 0;
   padding: 0;
@@ -7505,5 +7505,5 @@ a .btn {
 
 .btn:hover {
   background: #ecf0f1;
-  color: #34495e;
+  color: #f8f9fa;
 }
